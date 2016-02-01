@@ -24,19 +24,31 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Shader_Loader.cpp">
+    <ClCompile Include="Core\Shader_Loader.cpp">
       <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\GameModels.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Vertex_Shader.glsl">
+    <None Include="Shaders\Vertex_Shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Fragment_Shader.glsl">
       <Filter>Shaders</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Shader_Loader.h">
+    <ClInclude Include="Core\Shader_Loader.h">
       <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\VertexFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\GameModels.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
